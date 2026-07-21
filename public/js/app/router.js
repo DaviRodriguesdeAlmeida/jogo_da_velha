@@ -6,11 +6,13 @@ const router = new Navigo("/");
 const app = document.querySelector("#app")
 
 router.on("/",() => {
-    console.log("rota /")
-    router.navigate("/Login")
+    router.navigate("/login")
 })
 
-router.on("Login",() => {
+router.on("login",() => {
     CarregarDadosPagina("login")
+})
+router.on("cadastro",() => {
+    CarregarDadosPagina("cadastro")
 })
 router.resolve();
