@@ -1,0 +1,51 @@
+<section class="login-card">
+        <div class="login-cabecalho">
+          <span class="login-icone">L</span>
+          <h1>Bem-vindo</h1>
+          <p>Entre com seus dados para continuar.</p>
+        </div>
+
+        <form class="login-formulario" action="" method="post">
+          <div class="campo">
+            <label for="usuario">Nome de usuário</label>
+            <input
+              type="text"
+              id="usuario"
+              name="usuario"
+              placeholder="Digite seu nome de usuário"
+              autocomplete="username"
+              required
+            >
+          </div>
+
+          <div class="campo">
+            <label for="senha">Senha</label>
+
+            <div class="campo-senha">
+              <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                autocomplete="current-password"
+                required
+              >
+
+              <button
+                class="botao-mostrar-senha"
+                type="button"
+                aria-label="Mostrar senha"
+              >
+                Mostrar
+              </button>
+            </div>
+          </div>
+
+          <button class="botao-login" type="submit">Entrar</button>
+        </form>
+
+        <div class="cadastro">
+          <span>Ainda não possui uma conta?</span>
+          <a class="botao-cadastro" href="/cadastro">Criar conta</a>
+        </div>
+      </section>
