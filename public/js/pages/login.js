@@ -12,7 +12,7 @@ async function logarUsuario(){
             event.preventDefault()
             const email = document.getElementById("usuario")
             const senha = document.getElementById("senha")
-            const response = await axios.post("http://localhost:3000/login",{ email: email.value, senha: senha.value})
+            const response = await axios.post("http://localhost:3000/usuarios/login",{ email: email.value, senha: senha.value})
             console.log(response)
         })
     }
