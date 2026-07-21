@@ -8,12 +8,12 @@ class usuariosModel {
         this.senha = senha;
     }
 
-    async validarSenha(senha) {
-        return await comparar(senha, this.senha);
+    validarSenha(senha) {
+        return comparar(senha, this.senha);
     }
 
-    async gerarToken() {
-        this.token = await gerarToken({ id: this.id, email: this.email });
+    gerarToken() {
+        this.token = gerarToken({ id: this.id, email: this.email });
         return this.token;
     }
 }

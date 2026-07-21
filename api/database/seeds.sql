@@ -2,4 +2,4 @@ use jogo_da_velha;
 
 insert into usuarios (email, senha) values
 ("user@example.com", "password"),
-("admin@example.com", '$2b$10$xJDgK0y7jtvuCr4WSqe5D.3bhP0bJGvLC8HwTR0DNYZk4EV4m59Aq');--password123
+("admin@example.com", '$2b$10$fcl.xtMSu2Xgn9IBLiRaCe6j1yR0b6HvCXZT.r8gqLCSCUpYcG30u');--password123
