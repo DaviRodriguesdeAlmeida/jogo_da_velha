@@ -15,4 +15,9 @@ router.on("login",() => {
 router.on("cadastro",() => {
     CarregarDadosPagina("cadastro")
 })
+router.on("inicio",() => {
+    CarregarDadosPagina("inicio")
+})
 router.resolve();
+
+export default router

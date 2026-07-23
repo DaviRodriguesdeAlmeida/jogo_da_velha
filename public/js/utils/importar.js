@@ -2,6 +2,7 @@ import carregarCSSsPagina from "/js/utils/importarCss.js"
 import carregarHTMLsPagina from "/js/utils/importarHtml.js"
 import carregarJsLogin from "/js/pages/login.js"
 import carregarJsCadastro from "/js/pages/cadastro.js"
+import carregarJsInicio from "/js/pages/inicio.js"
 
 const paginaDados = {
     login: {
@@ -13,6 +14,11 @@ const paginaDados = {
         pagina:"cadastro",
         css: ["cadastro",[]],
         javascript: () => carregarJsCadastro(),
+    },
+    inicio: {
+        pagina:"inicio",
+        css: ["inicio",[]],
+        javascript: () => carregarJsInicio(),
     }
 }
 

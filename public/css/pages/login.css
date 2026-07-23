@@ -31,6 +31,12 @@ input {
   padding: 24px;
 }
 
+.mensagem-erro{
+  color: #dc2626;
+  font-size: 14px;
+  text-align: center;
+}
+
 .login-card {
   width: 100%;
   max-width: 420px;
