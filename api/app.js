@@ -10,6 +10,7 @@ app.use(express.json());
 
 
 app.use("/usuarios", usuariosRoutes);
+
 app.use(ErrorHandler);
 
 module.exports = app;

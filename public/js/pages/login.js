@@ -2,8 +2,8 @@ import axios from "axios";
 import router from "/js/app/router.js"
 
 async function carregarJsLogin(){
-    mostrarSenha()
     await logarUsuario()
+    mostrarSenha()
 }
 
 async function logarUsuario(){

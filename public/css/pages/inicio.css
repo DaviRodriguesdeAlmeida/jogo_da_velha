@@ -116,3 +116,63 @@ button {
     min-height: 360px;
   }
 }
+/* ===================================================== */
+/* ====================modal-sair======================= */
+/* ===================================================== */
+#modal-sair {
+    width: 90%;
+    max-width: 400px;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    background-color: #202020;
+    color: white;
+    transform-origin: center;
+    transform: translate(-50%, -70%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+#modal-sair::backdrop {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.modal-conteudo {
+    padding: 24px;
+}
+
+.modal-conteudo h2 {
+    margin-top: 0;
+}
+
+.modal-conteudo p {
+    color: #bdbdbd;
+}
+
+.modal-botoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    margin-top: 24px;
+}
+
+.modal-botoes button {
+    padding: 10px 18px;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+#cancelar-saida {
+  background-color: #444;
+  color: white;
+}
+
+#confirmar-saida {
+  background-color: #d83b3b;
+  color: white;
+}

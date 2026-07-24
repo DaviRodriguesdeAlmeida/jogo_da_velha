@@ -5,3 +5,12 @@ Content-Type: application/json
     "email": "admin@example.com",
     "senha": "password123"
 }
+### cadastro
+POST http://localhost:3000/usuarios/cadastro
+Content-Type: application/json
+
+{
+    "nome": "Admin2",
+    "email": "admin2@example.com",
+    "senha": "password124"
+}

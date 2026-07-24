@@ -8,67 +8,31 @@
         <form class="cadastro-formulario" action="" method="post">
           <div class="campo">
             <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Digite seu email"
-              autocomplete="username"
-              required
-            >
+            <input type="email" id="email" name="email" placeholder="Digite seu email" autocomplete="username" required>
+          </div>
+          
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="name" required>
           </div>
 
           <div class="campo">
             <label for="senha">Senha</label>
-
             <div class="campo-senha">
-              <input
-                type="password"
-                id="senha"
-                name="senha"
-                placeholder="Digite sua senha"
-                autocomplete="new-password"
-                required
-              >
-
-              <button
-                class="botao-mostrar-senha"
-                type="button"
-                data-campo-senha="senha"
-                aria-label="Mostrar senha"
-              >
-                Mostrar
-              </button>
+              <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="new-password" required>
+              <button class="botao-mostrar-senha" type="button" data-campo-senha="senha" aria-label="Mostrar senha">Mostrar</button>
             </div>
           </div>
 
           <div class="campo">
             <label for="confirmar-senha">Confirme sua senha</label>
-
             <div class="campo-senha">
-              <input
-                type="password"
-                id="confirmar-senha"
-                name="confirmarSenha"
-                placeholder="Digite sua senha novamente"
-                autocomplete="new-password"
-                required
-              >
-
-              <button
-                class="botao-mostrar-senha"
-                type="button"
-                data-campo-senha="confirmar-senha"
-                aria-label="Mostrar confirmação da senha"
-              >
-                Mostrar
-              </button>
+              <input type="password" id="confirmar-senha" name="confirmarSenha" placeholder="Digite sua senha novamente" autocomplete="new-password" required>
+              <button class="botao-mostrar-senha" type="button" data-campo-senha="confirmar-senha" aria-label="Mostrar confirmação da senha">Mostrar</button>
             </div>
           </div>
-
-          <button class="botao-criar-conta" type="submit">
-            Criar conta
-          </button>
+          <span class="mensagem-erro" id="mensagem-erro"></span>
+          <button class="botao-criar-conta" type="submit">Criar conta</button>
         </form>
 
         <div class="login">
